@@ -4,6 +4,8 @@ theme: just-the-docs
 
 url: https://poly.dance
 aux_links:
-  Template Repository: https://github.com/Llennpie/poly.dance
+  "Site Repo": https://github.com/Llennpie/poly.dance
 
+logo: "/images/site/logo.png"
+favicon_ico: "/images/site/favicon.ico"
 color_scheme: dark

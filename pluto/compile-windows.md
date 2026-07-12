@@ -23,7 +23,7 @@ Enter `pacman -Syuu` in the prompt and hit enter. Press `Y` whenever it asks you
 
 Next run this command in the terminal to install our necessary packages:
 ```
-pacman -S unzip make git mingw-w64-i686-gcc mingw-w64-x86_64-gcc mingw-w64-i686-glew mingw-w64-x86_64-glew mingw-w64-i686-SDL2 mingw-w64-i686-SDL mingw-w64-x86_64-SDL2 mingw-w64-x86_64-SDL python3
+pacman -S unzip make git mingw-w64-x86_64-gcc mingw-w64-x86_64-glew mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cjson python3
 ```
 
 Clone the source code and enter its folder:

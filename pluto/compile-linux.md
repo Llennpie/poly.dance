@@ -15,15 +15,15 @@ The build system has the following package requirements:
 
 ### Ubuntu
 ```
-sudo apt install build-essential git python3 libglew-dev libsdl2-dev libz-dev libcurl4-openssl-dev
+sudo apt install build-essential git python3 libglew-dev libsdl2-dev libz-dev libcurl4-openssl-dev libcjson-dev xclip
 ```
 ### Arch
 ```
-sudo pacman -S base-devel python sdl2 glew zlib-devel libcurl-devel
+sudo pacman -S base-devel python sdl2-compat glew zlib-devel libcurl-devel cjson xclip
 ```
 ### Fedora
 ```
-sudo dnf install make gcc python3 glew-devel SDL2-devel zlib-devel libcurl-devel
+sudo dnf install make gcc python3 glew-devel SDL2-devel zlib-devel libcurl-devel cjson xclip
 ```
 ***
 

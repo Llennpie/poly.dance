@@ -12,6 +12,8 @@ The build system has the following package requirements:
 - git
 - libcurl
 - zlib
+- cjson
+- xclip
 
 ### Ubuntu
 ```
@@ -24,6 +26,10 @@ sudo pacman -S base-devel python sdl2-compat glew zlib-devel libcurl-devel cjson
 ### Fedora
 ```
 sudo dnf install make gcc python3 glew-devel SDL2-devel zlib-devel libcurl-devel cjson xclip
+```
+### Steam OS (Deck/Machine)
+```
+sudo pacman -S base-devel git make gcc sdl2 glew cjson xclip curl glu libx11 xorgproto
 ```
 ***
 

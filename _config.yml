@@ -9,3 +9,11 @@ aux_links:
 logo: "/images/site/logo.png"
 favicon_ico: "/images/site/favicon.ico"
 color_scheme: dark
+
+callouts:
+  note:
+    title: Note
+    color: grey-lt
+  warning:
+    title: Warning
+    color: red
